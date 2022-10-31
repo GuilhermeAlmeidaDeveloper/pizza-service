@@ -3,6 +3,7 @@ const cs = (el)=>document.querySelectorAll (el)
 //funções para retornar o elemento/array selecionado.
 
 let modalQt = 1;
+//Definindo a quantidade padrao de itens no modal.
 
 
 
@@ -29,6 +30,7 @@ pizzaJson.map ((item, index)=>{       //mapeando JSON
         //Atribuindo a cada pizza uma identificação dentro do modal.
         
         modalQt = 1;
+        //Redefinindo a quantidade de items para 1 no modal.
         
         c('.pizzaBig img').src = pizzaJson[key].img
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
@@ -54,7 +56,7 @@ pizzaJson.map ((item, index)=>{       //mapeando JSON
         
     });
 
-    
+
 });
 
 function closeModal (){
@@ -66,4 +68,27 @@ function closeModal (){
 
 cs('.pizzaInfo--cancelButton, .pizzaInfo--cancelMobileButton').forEach((item)=>{
     item.addEventListener('click', closeModal);
-});
+});  //Aplicando o efeito de fechar o modal nos botões.
+
+c('.pizzaInfo--qtmenos').addEventListener('click', ()=> {
+    if (modalQt > 1){    
+        modalQt--;
+        c('.pizzaInfo--qt').innerHTML = modalQt;
+    } 
+}); // Dando funcionalidade para diminuir a quantidade de itens
+
+c('.pizzaInfo--qtmais').addEventListener('click', ()=> {
+    modalQt++;
+    c('.pizzaInfo--qt').innerHTML = modalQt; 
+}); //Dando funcionalidade para aumentar a quantidade de itens
+
+cs('.pizzaInfo--size').forEach ((size, sizeIndex)=> {
+   size.addEventListener('click', (e)=>{
+    c('.pizzaInfo--size.selected').classList.remove('selected');
+    size.classList.add('selected'); 
+   });
+}); //Aplicando efeito de clique nos tamanhos da pizza dentro do modal.
+
+
+
+  
