@@ -6,7 +6,7 @@ let modalQt = 1;
 
 
 
-pizzaJson.map ((item, index)=>{
+pizzaJson.map ((item, index)=>{       //mapeando JSON
     
     let pizzaItem = c ('.models .pizza-item').cloneNode(true);
     // preenchimento referente a base de informações em 'pizza-item'.
@@ -57,3 +57,13 @@ pizzaJson.map ((item, index)=>{
     
 });
 
+function closeModal (){
+    c('.pizzaWindowArea').style.opacity = 0;
+    setTimeout (()=>{
+        c('.pizzaWindowArea').style.display = 'none';
+    }, 500); 
+}  //Criando a função para fechar o Modal
+
+cs('.pizzaInfo--cancelButton, .pizzaInfo--cancelMobileButton').forEach((item)=>{
+    item.addEventListener('click', closeModal);
+});
