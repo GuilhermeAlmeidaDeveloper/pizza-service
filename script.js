@@ -3,6 +3,8 @@ const cs = (el)=>document.querySelectorAll (el)
 //funções para retornar o elemento/array selecionado.
 
 let modalQt = 1;
+let cart = [];
+let modalKey = 0;
 //Definindo a quantidade padrao de itens no modal.
 
 
@@ -28,10 +30,10 @@ pizzaJson.map ((item, index)=>{       //mapeando JSON
 
         let key = e.target.closest('.pizza-item').getAttribute('data-key');
         //Atribuindo a cada pizza uma identificação dentro do modal.
-        
         modalQt = 1;
         //Redefinindo a quantidade de items para 1 no modal.
-        
+        modalKey = key;
+
         c('.pizzaBig img').src = pizzaJson[key].img
         c('.pizzaInfo h1').innerHTML = pizzaJson[key].name;
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
@@ -89,6 +91,13 @@ cs('.pizzaInfo--size').forEach ((size, sizeIndex)=> {
    });
 }); //Aplicando efeito de clique nos tamanhos da pizza dentro do modal.
 
-
+c('.pizzaInfo--addButton').addEventListener('click',()=> {
+    let size = c('.pizzaInfo--size.selected').getAttribute('data-key')  //Pegando o tamanho da pizza selecionada.
+    cart.push({
+        id:pizzaJson[modalKey].id,
+        size,
+        qt:modalQt
+    });   
+}); //Adcionando o pedido ao carrinho
 
   
