@@ -3,7 +3,7 @@ const cs = (el)=>document.querySelectorAll (el)
 //funções para retornar o elemento/array selecionado.
 
 let modalQt = 1;
-let cart = [];
+let cart = []; 
 let modalKey = 0;
 //Definindo a quantidade padrao de itens no modal.
 
@@ -77,7 +77,7 @@ c('.pizzaInfo--qtmenos').addEventListener('click', ()=> {
         modalQt--;
         c('.pizzaInfo--qt').innerHTML = modalQt;
     } 
-}); // Dando funcionalidade para diminuir a quantidade de itens
+}); //Dando funcionalidade para diminuir a quantidade de itens
 
 c('.pizzaInfo--qtmais').addEventListener('click', ()=> {
     modalQt++;
@@ -92,12 +92,34 @@ cs('.pizzaInfo--size').forEach ((size, sizeIndex)=> {
 }); //Aplicando efeito de clique nos tamanhos da pizza dentro do modal.
 
 c('.pizzaInfo--addButton').addEventListener('click',()=> {
-    let size = c('.pizzaInfo--size.selected').getAttribute('data-key')  //Pegando o tamanho da pizza selecionada.
+    let size = parseInt(c('.pizzaInfo--size.selected').getAttribute('data-key'));  //Pegando o tamanho da pizza selecionada.
+    
+    let identifier = pizzaJson[modalKey].id+'@'+size;
+
+    let key = cart.findIndex((item)=>item.identifier == identifier); 
+
+    //criando identificador para o momento de montar o pedido no carrinho
+    
+    if(key > -1){
+        cart[key].qt += modalQt;
+    } else {
+
     cart.push({
+        identifier,
         id:pizzaJson[modalKey].id,
         size,
         qt:modalQt
     });   
-}); //Adcionando o pedido ao carrinho
+}
+    updateCart ();
+    closeModal ();
+}); //Adicionando o pedido ao carrinho
 
-  
+function updateCart () {
+    if (cart.length > 0) {
+        c('aside').classList.add('show');
+    } else {
+        c('aside').classList.add('remove');
+    }
+
+}
