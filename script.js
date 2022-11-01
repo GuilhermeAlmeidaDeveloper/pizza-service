@@ -201,80 +201,52 @@ function updateCart () {
     } //Funções para fechar o aside (mobile and desktop).
 
 
-};    // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
+};   
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
+// jS.gui
 
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
 
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        
 
-        // Função para registrar as informações da pizza pedida para o carrinho
-
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
-        // Função para registrar as informações da pizza pedida para o carrinho.
